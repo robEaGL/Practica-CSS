@@ -1,42 +1,83 @@
 * {
 	padding: 0;
 	margin: 0;
+	font-family: verdana, arial;
 }
 nav {
-	width: 100%
 	height: 30px;
-	background-color:blue;
-	position: relative;
-	vertical-align: left;
+	bottom: 0;
+}
+ul {
+	padding:0;
+	margin: 0 20px 0 0;
+	display:inline;
 }
 header {
 	width: 100%;
-    height: 100px;
-    background-color: yellow;
+	height: 150px;
 }
-section {
-	width: 100%;
-	background-color:green;
+section#post {
+	width: 75%;
+	float: left;
+}
+section#sidebar {
+	width: 25%;
+	float: right;
 }
 footer {
 	width: 100%;
-    height: 100px;
-    background-color: red;
-    position: fixed;
-    bottom: 0;
+	height: 50px;
+	position: fixed;
+	bottom: 0;
+	text-align: right;
+	font-style: italic;
 }
 aside {
-	background-color: pink;
-	vertical-align: right;
+	float: right;
+	width: 35%;
+	margin-left: 5%;
+	font-size: 20px;
+	line-height: 40px;
+}
+#login {
+	width:40%;
+	float: right;
+	margin: 5px auto;
+	border: solid;
+	border-width: 2px;
+	border-color: grey;
 }
 #info {
 	width:70%;
 	float:left;
-	background-color: blue;
+	margin: 5px auto;
 }
-#ads {
-	width: 30%;
-	height: 100px;
+#adsup1 {
+	width: 50%;
+	height: 60px;
+	float: left;
+	font-size: 9px;
+	margin: 5px auto;
+}
+#adsup2 {
+	width: 50%;
+	height: 60px;
 	float: right;
-	background-color: red;
+	font-size: 9px;
+	margin: 5px auto;
+}
+#adlat1 {
+	position: relative;
+	margin: 5px auto;
+}
+#adlat2 {
+	position: relative;
+	margin: 5px auto;
+}
+#adlat3 {
+	position: relative;
+	margin: 5px auto;
+}
+img#advert{
+	width: 100%
 }
